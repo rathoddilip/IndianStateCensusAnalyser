@@ -10,7 +10,13 @@ namespace IndianStateCensusAnalyser
         public string stateName;
         public int tin;
         public string stateCode;
-
+        /// <summary>
+        /// parameterised constructor
+        /// </summary>
+        /// <param name="serialNumber"></param>
+        /// <param name="stateName"></param>
+        /// <param name="tin"></param>
+        /// <param name="stateCode"></param>
         public CensusDataRowStateCode(string serialNumber, string stateName, string tin, string stateCode)
         {
             this.serialNumber = Convert.ToInt32(serialNumber);
